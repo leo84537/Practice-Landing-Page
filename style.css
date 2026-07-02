@@ -115,6 +115,9 @@ body{
     background-color:rgb(255, 255, 255);
     color:rgb(119, 94, 94);
     padding: 80px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -124,12 +127,16 @@ body{
     background-color: rgb(41, 146, 239);
     border-radius: 12px;
     padding: 20px 13px;
+    width: 300px;
+    flex-shrink: 0;
 }
+
 .text{
     display: flex;
     flex-direction: column;
     color: white;
 }
+
 .sign{
     border-radius: 7px;
     color: white;
